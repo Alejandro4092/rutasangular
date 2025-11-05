@@ -8,6 +8,7 @@ import { MusicaComponent } from '../components/musica.component/musica.component
 import { CineComponent } from '../components/cine.component/cine.component';
 import { MenuComponent } from '../components/menu.component/menu.component';
 import { NotfoundComponent } from '../components/notfound.component/notfound.component';
+import { NumeroDobleComponent } from '../components/numero.doble.component/numero.doble.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NotfoundComponent } from '../components/notfound.component/notfound.com
     MusicaComponent,
     CineComponent,
     MenuComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    NumeroDobleComponent
   ],
   imports: [
     BrowserModule,

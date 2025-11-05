@@ -4,12 +4,15 @@ import { CineComponent } from "../components/cine.component/cine.component";
 import { RouterModule, Routes } from "@angular/router";
 import { ModuleWithProviders } from "@angular/core";
 import { NotfoundComponent } from "../components/notfound.component/notfound.component";
+import { NumeroDobleComponent } from "../components/numero.doble.component/numero.doble.component";
 
 export const appRoutes: Routes = [
     { path: '', component: HomeComponent },
     { path: 'musica', component: MusicaComponent },
     { path: 'cine', component: CineComponent },
-    { path: '**', component: NotfoundComponent }
+    { path: 'numerodoble', component: NumeroDobleComponent },
+    { path: '**', component: NotfoundComponent },
+    
 ];
 
 export const appRoutingProvider: any[] = [];
