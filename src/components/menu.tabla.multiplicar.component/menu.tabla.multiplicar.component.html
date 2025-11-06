@@ -1,0 +1,13 @@
+<div>
+    <ul id="menu">
+        <li>
+            <a [routerLink]="['/']">Home</a>
+        </li>
+        @for (num of numeros; track num) {
+        <li>
+            <a [routerLink]="['/tablamultiplicar',num]">Tabla de multiplicar de {{num}}</a>
+        </li>
+    }
+        
+    </ul>
+</div>

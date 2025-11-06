@@ -1,0 +1,23 @@
+<div>
+<h1>Tabla de Multiplicar Del {{numero}}</h1>
+
+
+    <table >
+        <thead>
+            <tr>
+                
+            </tr>
+        </thead>
+        <tbody>
+            @for (num of tabla; track num) {
+            <tr>
+                <td>{{numero}} x {{$index + 1}} = {{num}}</td>
+               
+            </tr>
+            }
+        </tbody>
+    </table>
+
+
+
+</div>

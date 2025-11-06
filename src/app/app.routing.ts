@@ -5,12 +5,14 @@ import { RouterModule, Routes } from "@angular/router";
 import { ModuleWithProviders } from "@angular/core";
 import { NotfoundComponent } from "../components/notfound.component/notfound.component";
 import { NumeroDobleComponent } from "../components/numero.doble.component/numero.doble.component";
-
+import { TablaMultiplicarComponent } from "../components/tabla.multiplicar.component/tabla.multiplicar.component";
 export const appRoutes: Routes = [
     { path: '', component: HomeComponent },
     { path: 'musica', component: MusicaComponent },
     { path: 'cine', component: CineComponent },
     { path: 'numerodoble', component: NumeroDobleComponent },
+    { path: 'numerodoble/:numero', component: NumeroDobleComponent },
+     { path: 'tablamultiplicar/:numero', component: TablaMultiplicarComponent },
     { path: '**', component: NotfoundComponent },
     
 ];
